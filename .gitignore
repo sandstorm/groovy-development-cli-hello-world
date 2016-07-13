@@ -1,1 +1,7 @@
 ./groovy-development-cli-hello-world.iml
+.gradle/
+hello-world/build/
+runner/build/
+.idea/
+hello-world/hello-world.iml
+runner/runner.iml
