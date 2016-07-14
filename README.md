@@ -1,5 +1,7 @@
 # groovy-development-cli-hello-world
 
+This example shows how to use the *groovy-runner* in [github.com/sandstorm/groovy-development-cli](https://github.com/sandstorm/groovy-development-cli).
+
 The *runner* allows to run some parts and the tests of the project *hello-world*.
 It has no source at all: only the *runner/build.gradle*.
 
