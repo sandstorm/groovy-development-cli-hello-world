@@ -4,10 +4,13 @@ import org.junit.Test
 
 import static org.junit.Assert.fail
 
+/**
+ * this test fails for demonstrating failing tests, please do not fix it
+ */
 class FailingTest {
 
     @Test
-    public void toString_test() {
+    public void some_failing_test_just_to_show() {
         fail "TODO: fix me"
     }
 }

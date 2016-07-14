@@ -2,12 +2,14 @@ apply plugin: "application"
 mainClassName = "de.sandstormmedia.groovyrunner.Main"
 
 startScripts {
+    /**
+     * here we configure the target-project to access with this runner
+     */
     defaultJvmOpts << "-Dsandstormmedia.groovyrunner.source=hello-world"
 }
 
 dependencies {
     compile project(':hello-world')
-
     compile "de.sandstormmedia.groovy-development-cli:groovy-runner:1.0.0"
 
     /**
