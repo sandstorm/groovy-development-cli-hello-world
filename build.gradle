@@ -1,5 +1,5 @@
 subprojects {
-    apply plugin: 'groovy'
+    apply plugin: "groovy"
     repositories {
         maven {
             url "https://dl.bintray.com/sandstorm/maven"
@@ -8,5 +8,5 @@ subprojects {
     }
 }
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.2'
+    gradleVersion = "2.14"
 }
