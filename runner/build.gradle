@@ -8,9 +8,7 @@ startScripts {
 dependencies {
     compile project(':hello-world')
 
-    compile "de.sandstormmedia.groovy-development-cli:groovyrunner:0.1"
-    // TODO: this should not be in dependencies of groovyrunner
-    compile "de.sandstormmedia.groovy-development-cli:dependency-injection:0.1"
+    compile "de.sandstormmedia.groovy-development-cli:groovy-runner:0.0.1"
 
     /**
      * this is needed as runtime dependency since the runner must run tests "in production"
